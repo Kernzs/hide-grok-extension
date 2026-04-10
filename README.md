@@ -1,5 +1,70 @@
 # 🙈 Hide @Grok Tweets
 
+A Chrome extension that automatically hides tweets mentioning **@grok** from accounts **without a blue verified badge** on X/Twitter.
+
+Accounts with the ✅ blue badge are not affected.
+
+---
+
+## ✨ Features
+
+- 🔇 Hides @grok tweets from non-verified accounts
+- 👁️ Shows a subtle placeholder with a **"Show"** button to reveal a tweet on demand
+- 🔛 Toggle on/off directly from the extension icon in Chrome
+- 📊 Hidden tweet counter for the current page
+- ⚡ Works in real-time while scrolling (dynamic loading)
+
+---
+
+## 📦 Installation
+
+> ⚠️ This extension is not on the Chrome Web Store. Installation is done via developer mode.
+
+1. **Download** this repo → `Code` button → `Download ZIP`
+2. **Unzip** the downloaded file
+3. Open Chrome and go to `chrome://extensions/`
+4. Enable **Developer mode** (toggle in the top right)
+5. Click **"Load unpacked"**
+6. Select the unzipped folder
+7. The extension appears in your Chrome toolbar 🎉
+
+---
+
+## 🖥️ Usage
+
+- **Enable / Disable** : click the extension icon in the Chrome toolbar
+- **Reveal a hidden tweet** : click the `Show` button in the placeholder
+- The extension works automatically on `twitter.com` and `x.com`
+
+---
+
+## 🔒 Permissions
+
+| Permission | Reason |
+|---|---|
+| `storage` | Save the on/off state and counter |
+| Access to `x.com` / `twitter.com` | Read and modify page content |
+
+> No data is collected, sent, or stored outside your browser.
+
+---
+
+## ⚠️ Known limitations
+
+- X/Twitter frequently updates its DOM. If the extension stops working after an X update, please open an **Issue** on this repo.
+- Blue badge detection may vary depending on the account type (government organizations, etc.)
+
+---
+
+## 📄 License
+
+MIT — do whatever you want with it.
+
+---
+---
+
+# 🙈 Hide @Grok Tweets — Version française
+
 Une extension Chrome qui masque automatiquement les tweets mentionnant **@grok** provenant de comptes **sans badge bleu vérifié** sur X/Twitter.
 
 Les comptes avec le ✅ badge bleu ne sont pas affectés.
